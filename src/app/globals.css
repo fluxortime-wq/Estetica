@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #D4AF37; /* Gold */
+  --color-secondary: #F5F5DC; /* Beige/Nude */
+  --color-accent: #8B4513; /* Bronze */
+  --color-background: #FFFAF0; /* Floral White (Warm Neutral) */
+  --color-foreground: #2D2D2D; /* Dark Gray for text */
+}
+
+:root {
+  --background: #FFFAF0;
+  --foreground: #2D2D2D;
+  --primary: #D4AF37;
+  --secondary: #F5F5DC;
+  --accent: #8B4513;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.wellness-gradient {
+  background: linear-gradient(135deg, #FFFAF0 0%, #F5F5DC 100%);
+}
+
