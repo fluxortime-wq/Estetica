@@ -11,11 +11,14 @@ export default function About() {
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        className="relative aspect-square bg-secondary rounded-3xl overflow-hidden"
+                        className="relative aspect-square bg-secondary rounded-3xl overflow-hidden shadow-xl"
                     >
-                        <div className="absolute inset-0 flex items-center justify-center text-primary/30 p-12 text-center text-xl italic font-playfair">
-                            [Espaço para Foto Real da Clínica ou Especialista na Ilha Amarela]
-                        </div>
+                        <img
+                            src="https://images.unsplash.com/photo-1629909613654-28a3a7c4d409?auto=format&fit=crop&q=80&w=800"
+                            alt="Interior da Clínica Salvador"
+                            className="w-full h-full object-cover"
+                        />
+                        <div className="absolute inset-0 bg-primary/5 mix-blend-multiply" />
                     </motion.div>
 
                     <motion.div

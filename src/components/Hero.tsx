@@ -54,9 +54,11 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="relative aspect-[4/5] bg-secondary/30 rounded-2xl overflow-hidden border-8 border-white shadow-2xl"
                 >
-                    <div className="absolute inset-0 flex items-center justify-center text-primary/20 font-playfair italic text-3xl p-8 text-center">
-                        [Espaço para Imagem Aspiracional: Mulher com Pele Radiante]
-                    </div>
+                    <img
+                        src="https://images.unsplash.com/photo-1596704017254-9b121068fb21?auto=format&fit=crop&q=80&w=800"
+                        alt="Mulher com pele radiante"
+                        className="w-full h-full object-cover"
+                    />
                     {/* Subtle Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                 </motion.div>
